@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 83420ebbacd7a0b49ad0ef06ba384350
+timeCreated: 1504806501
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone008
+    100002: Bone009
+    100004: Bone010
+    100006: Bone012
+    100008: Bone013
+    100010: Bone014
+    100012: Bone014(mirrored)
+    100014: Bone015
+    100016: Bone015(mirrored)
+    100018: Bone017
+    100020: Bone017(mirrored)
+    100022: Bone018
+    100024: Bone018(mirrored)
+    100026: Bone020
+    100028: Bone021
+    100030: Bone022
+    100032: Bone023
+    100034: Bone024
+    100036: Bone025
+    100038: Bone026
+    100040: Bone028
+    100042: Bone028(mirrored)
+    100044: Bone029
+    100046: Bone029(mirrored)
+    100048: Bone030
+    100050: Bone030(mirrored)
+    100052: Bone031
+    100054: Bone031(mirrored)
+    100056: //RootNode
+    100058: chameleon
+    100060: Dummy001
+    100062: Dummy002
+    100064: Dummy003
+    100066: IK Chain002
+    100068: IK Chain003
+    100070: IK Chain004
+    100072: IK Chain005
+    100074: IK Chain006
+    100076: XBone011
+    100078: XBone016
+    100080: XBone016(mirrored)
+    100082: XBone019
+    100084: XBone019(mirrored)
+    100086: XBone027
+    100088: XBone032
+    100090: XBone032(mirrored)
+    400000: Bone008
+    400002: Bone009
+    400004: Bone010
+    400006: Bone012
+    400008: Bone013
+    400010: Bone014
+    400012: Bone014(mirrored)
+    400014: Bone015
+    400016: Bone015(mirrored)
+    400018: Bone017
+    400020: Bone017(mirrored)
+    400022: Bone018
+    400024: Bone018(mirrored)
+    400026: Bone020
+    400028: Bone021
+    400030: Bone022
+    400032: Bone023
+    400034: Bone024
+    400036: Bone025
+    400038: Bone026
+    400040: Bone028
+    400042: Bone028(mirrored)
+    400044: Bone029
+    400046: Bone029(mirrored)
+    400048: Bone030
+    400050: Bone030(mirrored)
+    400052: Bone031
+    400054: Bone031(mirrored)
+    400056: //RootNode
+    400058: chameleon
+    400060: Dummy001
+    400062: Dummy002
+    400064: Dummy003
+    400066: IK Chain002
+    400068: IK Chain003
+    400070: IK Chain004
+    400072: IK Chain005
+    400074: IK Chain006
+    400076: XBone011
+    400078: XBone016
+    400080: XBone016(mirrored)
+    400082: XBone019
+    400084: XBone019(mirrored)
+    400086: XBone027
+    400088: XBone032
+    400090: XBone032(mirrored)
+    4300000: chameleon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: chameleon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
