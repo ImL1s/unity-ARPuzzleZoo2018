@@ -66,7 +66,9 @@ ModelImporter:
     400056: XBone018
     400058: XBone018(mirrored)
     4300000: boar
-    7400000: Take 001
+    7400000: idle
+    7400002: motion1
+    7400004: motion2
     9500000: //RootNode
     13700000: boar
   materials:
@@ -91,7 +93,271 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boar
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone001
+        weight: 1
+      - path: Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004/XBone005
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015/XBone016
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)/XBone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006
+        weight: 1
+      - path: Dummy001/Bone006/Bone011
+        weight: 1
+      - path: Dummy001/Bone006/Bone011/XBone012
+        weight: 1
+      - path: Dummy001/Bone006/Bone016
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017/XBone018
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)/XBone018(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/XBone007
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: motion1
+      takeName: Take 001
+      firstFrame: 16
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boar
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone001
+        weight: 1
+      - path: Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004/XBone005
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015/XBone016
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)/XBone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006
+        weight: 1
+      - path: Dummy001/Bone006/Bone011
+        weight: 1
+      - path: Dummy001/Bone006/Bone011/XBone012
+        weight: 1
+      - path: Dummy001/Bone006/Bone016
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017/XBone018
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)/XBone018(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/XBone007
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: motion2
+      takeName: Take 001
+      firstFrame: 126
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boar
+        weight: 1
+      - path: Dummy001
+        weight: 1
+      - path: Dummy001/Bone001
+        weight: 1
+      - path: Dummy001/Bone001/Bone002
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone003/Bone004/XBone005
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013/Bone014/Bone015/XBone016
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)
+        weight: 1
+      - path: Dummy001/Bone001/Bone002/Bone013(mirrored)/Bone014(mirrored)/Bone015(mirrored)/XBone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006
+        weight: 1
+      - path: Dummy001/Bone006/Bone011
+        weight: 1
+      - path: Dummy001/Bone006/Bone011/XBone012
+        weight: 1
+      - path: Dummy001/Bone006/Bone016
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017
+        weight: 1
+      - path: Dummy001/Bone006/Bone016/Bone017/XBone018
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/Bone016(mirrored)/Bone017(mirrored)/XBone018(mirrored)
+        weight: 1
+      - path: Dummy001/Bone006/XBone007
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
