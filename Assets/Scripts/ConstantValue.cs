@@ -25,6 +25,13 @@ public class ConstantValue
         public const string AR = "ARScene";
     }
 
+    public class AnimatorState
+    {
+        public const int Idle = 0;
+        public const int Motion1 = 1;
+        public const int Motion2 = 2;
+    }
+
     public enum EBookAnimal
     {
         Fox,

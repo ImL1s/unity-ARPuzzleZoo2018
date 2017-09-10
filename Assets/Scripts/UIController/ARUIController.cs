@@ -12,6 +12,13 @@ public partial class ARUIController : MonoBehaviour
     private Button btnMotion2;
     private Button btnToEBook;
 
+    //public Animator foxAnimator;
+    //public Animator gazelleAnimator;
+    //public Animator lemurAnimator;
+    //public Animator chameleonAnimator;
+    //public Animator boarAnimator;
+
+    public List<Animator> animators;
 
     void Awake()
     {
@@ -25,6 +32,8 @@ public partial class ARUIController : MonoBehaviour
 /// </summary>
 partial class ARUIController
 {
+    public
+
     void InitUIRef()
     {
         btnFocus = transform.Find("group/btn_focus").GetComponent<Button>();
@@ -38,9 +47,9 @@ partial class ARUIController
     private void InitUIEvent()
     {
         //btnFocus.onClick.AddListener(() => NextPage());
-        //btnIdle.onClick.AddListener(() => PreviousPage());
-        //btnMotion1.onClick.AddListener(() => BackToMain());
-        //btnMotion2.onClick.AddListener(() => NavigateToARScene());
+        btnIdle.onClick.AddListener(() => PlayIdleAnimation());
+        btnMotion1.onClick.AddListener(() => PlayMotion1Animation());
+        btnMotion2.onClick.AddListener(() => PlayMotion2Animation());
         btnToEBook.onClick.AddListener(() => NavigateToEBook());
     }
 }
@@ -53,5 +62,29 @@ partial class ARUIController
     private void NavigateToEBook()
     {
         SceneManager.LoadScene(ConstantValue.Scenes.EBook);
+    }
+
+    private void PlayIdleAnimation()
+    {
+        foreach (var item in animators)
+        {
+            item.SetInteger("state", ConstantValue.AnimatorState.Idle);
+        }
+    }
+
+    private void PlayMotion1Animation()
+    {
+        foreach (var item in animators)
+        {
+            item.SetInteger("state", ConstantValue.AnimatorState.Motion1);
+        }
+    }
+
+    private void PlayMotion2Animation()
+    {
+        foreach (var item in animators)
+        {
+            item.SetInteger("state", ConstantValue.AnimatorState.Motion2);
+        }
     }
 }
