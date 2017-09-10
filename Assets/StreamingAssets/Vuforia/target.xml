@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="boar" size="640.000000 970.744507" />
+    <ImageTarget name="chameleon" size="640.000000 970.744507" />
+    <ImageTarget name="lemur" size="640.000000 970.744507" />
+    <ImageTarget name="gazelle" size="640.000000 970.744507" />
+    <ImageTarget name="fox" size="640.000000 970.744507" />
     <ImageTarget name="ARcard0814-1_rgb" size="640.000000 970.744507" />
   </Tracking>
 </QCARConfig>
