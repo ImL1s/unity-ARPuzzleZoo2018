@@ -29,11 +29,11 @@ partial class MainUIController
 {
     void InitUIRef()
     {
-        btnFox = transform.Find("btn_fox").GetComponent<Button>();
-        btnGazelle = transform.Find("btn_gazelle").GetComponent<Button>();
-        btnLemur = transform.Find("btn_lemur").GetComponent<Button>();
-        btnChameleon = transform.Find("btn_chameleon").GetComponent<Button>();
-        btnBoar = transform.Find("btn_boar").GetComponent<Button>();
+        btnFox = transform.Find("group/btn_fox").GetComponent<Button>();
+        btnGazelle = transform.Find("group/btn_gazelle").GetComponent<Button>();
+        btnLemur = transform.Find("group/btn_lemur").GetComponent<Button>();
+        btnChameleon = transform.Find("group/btn_chameleon").GetComponent<Button>();
+        btnBoar = transform.Find("group/btn_boar").GetComponent<Button>();
     }
 
     void InitUIEvent()
